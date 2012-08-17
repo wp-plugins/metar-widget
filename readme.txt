@@ -2,6 +2,7 @@
 Contributors: mcantsin
 Author URI: http://lutherblissett.net
 Plugin URL: http://wordpress.org/extend/plugins/metar-widget/
+Donate link: http://eff.org
 Tags: widget, metar, weather, noaa
 Requires at least: 3.4
 Tested up to: 3.4.1
@@ -40,4 +41,7 @@ METAR is a format for reporting weather information. A METAR weather report is p
 initial version
 
 == Upgrade Notice ==
+
+= 0.1 =
+initial version
 
