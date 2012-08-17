@@ -44,8 +44,7 @@ class MetarWidget extends WP_Widget
         }
 
 	echo '<div class="widget-wrapper" id="' . $args['widget_id'] . '-container">';
-	echo "<h1>Current METAR for $icao</h1>";
-        echo "<p id='metar'>$metar</p>";
-	echo "</div>";
+	echo '<div class="widget-title">Current METAR for ' . $icao . '</div>';
+	echo $metar . '</div>';
     }
 }
