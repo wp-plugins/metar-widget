@@ -6,7 +6,7 @@ Donate link: http://eff.org
 Tags: widget, metar, weather, noaa
 Requires at least: 3.4
 Tested up to: 3.4.1
-Stable tag: 0.1
+Stable tag: trunk
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
