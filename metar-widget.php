@@ -53,8 +53,8 @@ class MetarWidget extends WP_Widget
         	$metar = trim(str_replace('  ', ' ', $metar));
         }
 
-	echo '<div class="widget-wrapper" id="' . $args['widget_id'] . '-container">';
-	echo '<div class="widget-title">Current METAR for ' . $icao . '</div>';
+	echo '<div class="widget widget-wrapper" id="' . $args['widget_id'] . '-container">';
+	echo '<div class="widget-title"><b>Current METAR for ' . $icao . '</b></div>';
 	echo $metar . '</div>';
     }
 }
