@@ -1,4 +1,14 @@
 <?php
+/*
+Plugin Name: METAR plugin
+Plugin URI: http://wordpress.org/extend/plugins/metar-widget/
+Description: Plugin to include the latest METAR information from NOAA database for any Airport
+Version: 0.1
+Author: Luther Blissett
+Author URI: http://lutherblissett.net
+License: GPL3
+*/
+
 class MetarWidget extends WP_Widget
 {
     public function __construct() {
@@ -48,3 +58,6 @@ class MetarWidget extends WP_Widget
 	echo $metar . '</div>';
     }
 }
+
+add_action("widgets_init", function () { register_widget("MetarWidget"); });
+
