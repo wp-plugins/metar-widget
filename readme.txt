@@ -40,6 +40,9 @@ METAR is a format for reporting weather information. A METAR weather report is p
 = 0.1 =
 initial version
 
+= 0.1 revision of 26OCT2012 =
+Fixed add_action bug in line 62
+
 == Upgrade Notice ==
 
 = 0.1 =
