@@ -59,5 +59,5 @@ class MetarWidget extends WP_Widget
     }
 }
 
-add_action("widgets_init", function () { register_widget("MetarWidget"); });
-
+add_action("widgets_init", register_metarwidget);
+function register_metarwidget() { register_widget("metarwidget"); }
